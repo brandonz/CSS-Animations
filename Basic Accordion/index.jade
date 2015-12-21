@@ -1,0 +1,24 @@
+doctype html
+html
+	head
+		meta(charset="utf-8")
+		title Basic Accordion
+
+		link(rel='stylesheet', href='./style.css')
+
+		script(src="https://code.jquery.com/jquery-2.1.4.min.js")
+		script.
+			$(function(){
+				$('.accordion-toggle').on('click', function(){
+					$('.accordion').toggleClass('open');
+				});	
+			});
+	body
+		header
+			h1.site-title Website Header
+		main
+			h2 Header Text
+			p Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc a justo iaculis urna vestibulum iaculis ac vel arcu. Praesent ex diam, ullamcorper tincidunt quam sit amet, faucibus sagittis tellus. Quisque eu erat iaculis, porttitor odio facilisis, dictum neque. Donec nec placerat erat, eget lacinia orci. Fusce aliquet odio mollis, sodales nunc eget, varius nibh. Praesent gravida sed turpis in fringilla. In vehicula tortor eget sodales sagittis. Donec eget nunc purus. Fusce condimentum arcu eu maximus malesuada. Duis luctus mauris lacus, sed mollis risus volutpat id. Duis convallis placerat eleifend. Sed scelerisque ut sapien eget tristique. Phasellus a lorem lobortis, rhoncus nibh imperdiet, cursus nisl. Nullam quis nibh massa. Vestibulum sollicitudin, risus sit amet pretium blandit, nunc justo tempor mauris, eu ornare ligula tortor a ex. Vivamus convallis, erat a molestie ornare, lacus lacus fringilla justo, at ultrices diam ipsum nec purus.
+			h3.accordion-toggle Accordion Header (CLICK ME)
+			p.accordion Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc a justo iaculis urna vestibulum iaculis ac vel arcu. Praesent ex diam, ullamcorper tincidunt quam sit amet, faucibus sagittis tellus. Quisque eu erat iaculis, porttitor odio facilisis, dictum neque. Donec nec placerat erat, eget lacinia orci. Fusce aliquet odio mollis, sodales nunc eget, varius nibh. Praesent gravida sed turpis in fringilla. In vehicula tortor eget sodales sagittis. Donec eget nunc purus. Fusce condimentum arcu eu maximus malesuada. Duis luctus mauris lacus, sed mollis risus volutpat id. Duis convallis placerat eleifend. Sed scelerisque ut sapien eget tristique. Phasellus a lorem lobortis, rhoncus nibh imperdiet, cursus nisl. Nullam quis nibh massa. Vestibulum sollicitudin, risus sit amet pretium blandit, nunc justo tempor mauris, eu ornare ligula tortor a ex. Vivamus convallis, erat a molestie ornare, lacus lacus fringilla justo, at ultrices diam ipsum nec purus.
+			

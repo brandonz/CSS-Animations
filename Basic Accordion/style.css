@@ -1,0 +1,40 @@
+body {
+	background: #DDD;
+	margin: 0;
+}
+
+header {
+	background: #333;
+	color: #FFF;
+	padding: 20px;
+	position: relative;
+}
+
+main {
+	padding: 20px;
+}
+
+.site-title {
+	font-size: 5rem;
+}
+
+a {
+	color: #FFF;
+	text-decoration: none;
+}
+
+.accordion {
+	opacity: 0;
+	padding: 0 20px;
+	font-size: 14px;
+	background: #FFF;
+	max-height: 0;
+	overflow: hidden;
+	transition: all 0.2s ease;
+}
+
+.accordion.open {
+	padding: 20px;
+	opacity: 1;
+	max-height: 500px;
+}
